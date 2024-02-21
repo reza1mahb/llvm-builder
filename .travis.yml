@@ -5,7 +5,7 @@ compiler: gcc
 services: docker
 
 notifications:
-  email: false
+  email: true
 
 script:
   - ./shellcheck.sh
